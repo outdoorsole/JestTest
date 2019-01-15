@@ -1,0 +1,33 @@
+{
+  "name": "JestTest",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-native": "0.57.8"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.2.3",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-native": "^4.0.1",
+    "jest": "^23.6.0",
+    "jest-react-native": "^18.0.0",
+    "metro-react-native-babel-preset": "^0.51.1",
+    "react-native-mock": "^0.3.1",
+    "react-native-renderer": "^15.5.3",
+    "react-test-renderer": "^16.7.0"
+  },
+  "jest": {
+    "preset": "react-native",
+    "transformIgnorePatterns": [
+      "/node_modules/(?!react-native|react-clone-referenced-element|react-navigation)"
+    ]
+  }
+}
