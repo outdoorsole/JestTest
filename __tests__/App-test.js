@@ -1,5 +1,5 @@
-// import React from 'react';
-// import App from '../App';
+import React from 'react';
+import App from '../App';
 
 // import renderer from 'react-native-renderer';
 

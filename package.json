@@ -25,6 +25,10 @@
     "react-test-renderer": "^16.7.0"
   },
   "jest": {
+    "testMatch": [
+      "<rootDir>/__tests__/**/*.js",
+      "**/?(*.)(spec|test).js?(x)"
+    ],
     "preset": "react-native",
     "transformIgnorePatterns": [
       "/node_modules/(?!react-native|react-clone-referenced-element|react-navigation)"
